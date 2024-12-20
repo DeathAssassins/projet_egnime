@@ -24,7 +24,6 @@ problem.addVariables(pets, houses)
 problem.addConstraint(AllDifferentConstraint(), nationalities)
 problem.addConstraint(AllDifferentConstraint(), colors)
 problem.addConstraint(AllDifferentConstraint(), drinks)
-problem.addConstraint(AllDifferentConstraint(), cigarettes)
 problem.addConstraint(AllDifferentConstraint(), pets)
 
 # Contraintes du problème
